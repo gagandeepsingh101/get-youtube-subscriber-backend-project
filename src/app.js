@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 					"Use Postman to send a PUT request with the request parameter 'id' and a request body requiring any value for either 'name' or 'subscribedChannel'",
 			},
 			{
-				"/subscribers/:id":
+				"/subscribers/delete/:id":
 					"Use Postman to send a DELETE request with the request parameter 'id' to delete subscribed channel data",
 			},
 		],
