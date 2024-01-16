@@ -12,8 +12,8 @@ async function startServer() {
     await connectDb();
 
     // Start the server on port 3000
-    app.listen(3000, () => {
-      console.log("Server is listening on http://localhost:3000");
+    app.listen(8000, () => {
+      console.log("Server is listening on http://localhost:8000");
     });
   } catch (error) {
     // Handle errors during server startup, especially database connection issues
