@@ -106,7 +106,7 @@ node app.js
 
 ## 📄 API Documentation
 
-You can visit API documentation from [here](https://documenter.getpostman.com/view/29682764/2s9YsQ7VJB)
+You can visit API documentation from [here](https://documenter.getpostman.com/view/29682764/2s9YsQ8pmN)
 
 ## 🤝 Contributing
 
