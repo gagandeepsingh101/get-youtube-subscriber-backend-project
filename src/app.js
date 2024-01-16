@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 		routes: [
 			{ "/subscribers": "Fetch all subscribed data with all fields" },
 			{
-				"/subscribers/name":
+				"/subscribers/names":
 					"Fetch all subscribed data with an array of name and channel name fields",
 			},
 			{

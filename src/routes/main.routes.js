@@ -7,7 +7,7 @@ const router = Router();
 router.get("/", controller.getAllSubscribersData);
 
 // Route for getting subscribed data with an array of name and channel name fields
-router.get("/name", controller.getAllSpecificSubscribersData);
+router.get("/names", controller.getAllSpecificSubscribersData);
 
 // Route for getting specific subscribed data by ID
 router.get("/:id", controller.getSpecificIdData);

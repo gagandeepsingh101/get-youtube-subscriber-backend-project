@@ -7,18 +7,20 @@ config();
 
 // Asynchronous function to start the server
 async function startServer() {
-  try {
-    // Connect to the database
-    await connectDb();
+	try {
+		// Connect to the database
+		await connectDb();
 
-    // Start the server on port 3000
-    app.listen(8000, () => {
-      console.log("Server is listening on http://localhost:8000");
-    });
-  } catch (error) {
-    // Handle errors during server startup, especially database connection issues
-    console.error("Error during server startup:", error.message);
-  }
+		// Start the server on port 3000
+		app.listen(process.env.PORT, () => {
+			console.log(
+				"Server is listening on http://localhost:" + process.env.PORT
+			);
+		});
+	} catch (error) {
+		// Handle errors during server startup, especially database connection issues
+		console.error("Error during server startup:", error.message);
+	}
 }
 
 // Call the function to start the server
