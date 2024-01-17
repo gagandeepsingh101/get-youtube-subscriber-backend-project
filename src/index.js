@@ -12,9 +12,9 @@ async function startServer() {
 		await connectDb();
 
 		// Start the server on port 3000
-		app.listen(process.env.PORT, () => {
+		app.listen(process.env.PORT || 3000, () => {
 			console.log(
-				"Server is listening on http://localhost:" + process.env.PORT
+				"Server is listening on http://localhost:" + (process.env.PORT || 3000)
 			);
 		});
 	} catch (error) {
