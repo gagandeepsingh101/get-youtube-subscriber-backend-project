@@ -95,7 +95,7 @@ npm install
 Use the following command to run get-youtube-subscriber-backend-project:
 
 ```sh
-node app.js
+node ./src/index.js
 ```
 
 ### 🌐 Deployment-Link
