@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+  <img src="https://almablog-media.s3.ap-south-1.amazonaws.com/Logo_of_You_Tube_2015_2017_svg_ef2bc4f282.png" width="100" />
 </p>
 <p align="center">
     <h1 align="center">GET-YOUTUBE-SUBSCRIBER-BACKEND-PROJECT</h1>
